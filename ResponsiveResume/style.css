@@ -1,0 +1,37 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-container{
+    color: white;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.left-section{
+    background-color: rgb(100, 98, 98);
+    padding: 5px;
+}
+.right-section{   
+    background-color: rgb(49, 104, 49);
+    padding: 20px;
+   
+}
+img{
+    width: 280px;
+    height: 300px;
+    border-radius: 50%;
+}
+ul{
+    padding: 15px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
